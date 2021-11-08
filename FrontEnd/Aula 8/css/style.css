@@ -1,0 +1,22 @@
+*{
+    background-color: #131313;
+}
+
+h1{color: white;}
+
+h2{color: steelblue;}
+
+p{color: #bdbdbd;}
+
+a{color: yellow;}
+
+.media-picture img{
+    max-height:400px;
+    width: 100%;
+}
+
+.review-score{
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+}
