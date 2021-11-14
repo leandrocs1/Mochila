@@ -10,6 +10,7 @@ body{
     height: 100%;
     background-image: url(https://3em3.com/wp-content/uploads/2017/10/thumbpq_vitoria.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .bordas{
@@ -26,7 +27,7 @@ body{
 
 header{
     width: 100%;
-    height: 60px;
+    padding: 25px;
     background-color: rgb(20, 19, 19);
     text-align: center;
     border-bottom: 2px solid BLACK;
