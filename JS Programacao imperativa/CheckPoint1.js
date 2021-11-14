@@ -67,4 +67,4 @@ function menuPrato(nomeDoPrato, tempo){
 };
 
         //digite oque deseja fazer no microondas:
-        menuPrato("pipoca", 35);
+        menuPrato("pipoca", 20);
