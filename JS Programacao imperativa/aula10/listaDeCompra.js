@@ -18,4 +18,7 @@ console.log(listaDeCompra.shift());
 console.log("O .unshift adiciona um ou mais elementos nas primeiras posições do array")
 console.log(listaDeCompra.unshift('biscoito'));
 
+console.log(listaDeCompra.lastIndexOf());
+
 console.log(listaDeCompra);
+
