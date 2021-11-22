@@ -31,3 +31,39 @@ let [ , ,extrairCarne] = exemplos;
 console.log(extrairCarne)
 
 //Comparar elementos de um array com os elementos de outro.
+
+
+
+
+
+/***************************************************************************************/
+//Retorna a quantidade de arrays
+let numbers =[22, 33, 54, 66, 72];
+console.log(numbers.length);
+
+//Retorna [1] o segundo array interno, [0]o primeiro nome dentro do segundo array.... spiderman
+let grupoDeAmigos = [ ["Harry", "Ron", "Hermione"], ["Spiderman", "Hulk", "Ironman"], ["Penélope Glamour", "Pierre Nodoyuna","Patán"] ];
+console.log(grupoDeAmigos[1][0]);
+
+/***************************************************************************************/
+//Crie a função imprimirInverso que pega um Array como um argumento e imprime cada elemento em ordem reversa no console (você não precisa inverter o Array).
+
+function reverter(array){
+    array.reverse();
+    console.log(array);
+}
+
+reverter(exemplos);
+
+/***************************************************************************************/
+//Crie a função inverter que recebe um Array como argumento e retorna um novo invertido.
+
+function inverter(array){
+    invertido = array.reverse();
+    
+    console.log(invertido);
+}
+
+inverter(exemplos);
+
+
