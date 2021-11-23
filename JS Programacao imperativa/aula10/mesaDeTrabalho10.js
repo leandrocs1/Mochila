@@ -66,4 +66,22 @@ function inverter(array){
 
 inverter(exemplos);
 
+/***************************************************************************************/
+//Neste exercício, você criará uma função somarArray() que aceita um array de números e retorna a soma de todos eles.
+
+function somarArray(array){
+    let soma = 0;
+    for(var i = 0; i < array.length; i++) {
+    soma = soma + array[i]
+    console.log(soma);
+}
+    
+    
+    
+
+}
+somarArray([2,5,96,5]);
+
+/***************************************************************************************/
+//Neste exercício, você criará uma função chamada join que recebe um array e simula o comportamento do método Array.join().
 
