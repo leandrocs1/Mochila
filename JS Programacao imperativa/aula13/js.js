@@ -53,7 +53,7 @@
 // let filmes = {
 //     nome: "matrix",
 //     data: 1988,
-//     autor: "Leandro"
+//     autor: "sadf"
 // };
 
 // exibirPropriedade(filmes);
@@ -68,4 +68,29 @@
 // };
 
 
-/**********************************************/
+/********************** FOR-OF ARRAY(MÉDIA) ************************/
+
+
+// const array = [100, 80, 95];
+
+// console.log(mediaDoAluno(array));
+
+// function calcularMedia(array){
+//     let soma = 0;
+//     for(let valor of array){
+//         soma += valor;
+//     }
+//     return soma/(array.length);
+// }
+
+// function mediaDoAluno(notas){
+
+//     const media = calcularMedia(notas);
+
+//     if (media < 59) return 'F';
+//     if (media < 69) return 'D';
+//     if (media < 79) return 'C';
+//     if (media < 89) return 'B';
+//     return 'A';
+
+// }
