@@ -1,4 +1,4 @@
-require(js.js/)
+// require(js.js/)
 
 // function Cadastrar_Cliente(numero_da_conta, tp_de_conta, saldo, nome_titular){
 //     this.numero_da_conta = numero_da_conta;
