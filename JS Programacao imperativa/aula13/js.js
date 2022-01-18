@@ -138,16 +138,22 @@
 
 /********************** CLONAR OBJETOS ************************/
 
-function Teclado(cor, peso, led, ligarLed){
-    this.cor = cor,
-    this.peso = peso,
-    this.led = led;
-}
+// function Teclado(cor, peso, led, ligarLed){
+//     this.cor = cor,
+//     this.peso = peso,
+//     this.led = led;
+// }
 
-let novoTeclado = new Teclado("vermelho", 1.5+"KG", "Com Led");
+// let novoTeclado = new Teclado("vermelho", 1.5+"KG", "Com Led");
 
+// /*metodo 1.... é possível adicionar mais objetos*/ 
+// let teclado1 = Object.assign({
+//     bateria: 5000
+// }, novoTeclado);
 
+// /*metodo 2*/ 
+// let teclado2 = {...novoTeclado};
 
-let teclado2 = {...novoTeclado};
+// console.log(teclado1)
+// console.log(teclado2)
 
-console.log(teclado2)
