@@ -94,3 +94,60 @@
 //     return 'A';
 
 // }
+
+
+/********************** EXIBIR ASTERISCOS ************************/
+
+
+
+// function exibirAsteriscos(quantidade){
+//     let asterisco = '';
+//     for(let i = 0 ; i <= quantidade ; i++){
+//         asterisco += '*'
+//         console.log(asterisco);
+//     };
+
+    
+// };
+
+// exibirAsteriscos(10);
+
+
+// function Celular(marcaCelular, tamanhoTela, capacidadeBateria){
+
+//     this.marcaCelular = marcaCelular,
+//     this.tamanhoTela = tamanhoTela,
+//     this.capacidadeBateria = capacidadeBateria;
+// }
+
+// let celular = new Celular("samsung", 7.5, 5500);
+
+// console.log(celular);
+
+// let banco = {
+//     nomeCompleto: {
+//         nome: "Leandro",
+//         sobrenome: "Santos"
+//     },
+//     conta: 558254,
+//     idade: "32 anos"
+// };
+
+// console.log(banco)
+
+
+/********************** CLONAR OBJETOS ************************/
+
+function Teclado(cor, peso, led, ligarLed){
+    this.cor = cor,
+    this.peso = peso,
+    this.led = led;
+}
+
+let novoTeclado = new Teclado("vermelho", 1.5+"KG", "Com Led");
+
+
+
+let teclado2 = {...novoTeclado};
+
+console.log(teclado2)
