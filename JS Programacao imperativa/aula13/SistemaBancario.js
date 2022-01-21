@@ -63,14 +63,14 @@
                     
                     
                 
-//             })
-//         }
+// //             })
+// //         }
         
-//     }
+// //     }
 
-//     banco.deposito('Catarina Rigamonte', 10);
-//     banco.saque('Catarina Rigamonte', 10);
-//     banco.consultarCliente('Catarina Rigamonte');
+// //     banco.deposito('Catarina Rigamonte', 10);
+// //     banco.saque('Catarina Rigamonte', 10);
+// //     banco.consultarCliente('Catarina Rigamonte');
     
 
 
