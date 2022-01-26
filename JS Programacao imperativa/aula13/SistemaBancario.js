@@ -127,13 +127,16 @@
 
 
 
-function Cadastro_Pessoal(nome, email, senha){
-    this.nome = nome;
-    this.email = email;
-    this.senha = senha;
-}
+// function Cadastro_Pessoal(nome, email, senha){
+//     this.nome = nome;
+//     this.email = email;
+//     this.senha = senha;
+// }
 
-let primeiro_cadastro = new Cadastro_Pessoal("Leandro", "carmosantosleandro@gmail.com", "123321")
-console.log(primeiro_cadastro)
+// let primeiro_cadastro = new Cadastro_Pessoal("Leandro", "carmosantosleandro@gmail.com", "123321")
+// console.log(primeiro_cadastro)
 
+let nomes = ["Leandro do Carmo Santos", "Leandro do Carmo Santos", "Leandro do Carmo Santos"
+,"Leandro do Carmo Santos","Leandro do Carmo Santos","Leandro do Carmo Santos"];
 
+module.exports = nomes;

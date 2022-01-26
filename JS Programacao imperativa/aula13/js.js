@@ -305,3 +305,7 @@
 
 // let cortado = combinado.slice(1,4);
 // console.log(cortado)
+
+const nomes = require('./SistemaBancario')
+
+console.log(nomes);
