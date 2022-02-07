@@ -32,6 +32,7 @@ let conjunto = [
     new Conjunto(1.80, "M"),
     new Conjunto(1.75, "M"),
     new Conjunto(1.69, "F"),
+    new Conjunto(1.69, "M"),
 ]
 
 
