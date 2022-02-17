@@ -306,6 +306,57 @@
 // let cortado = combinado.slice(1,4);
 // console.log(cortado)
 
-const nomes = require('./SistemaBancario')
+// const nomes = require('./aula13/SistemaBancario')
 
-console.log(nomes);
+// console.log(nomes);
+
+
+/********** COMBINANDO(JUNTANDO) E CORTANDO ARRAYS COM SPRED***********/ 
+
+// let primeiro = [1,2,3];
+// let segundo = [4,5,6];
+
+// let combinado = [...primeiro,'a',...segundo];
+// console.log(combinado);
+// //CLONANDO AGORA
+
+// let clonado = [...combinado];
+
+// console.log(clonado);
+
+/********** PERCORRER ARRAY COM .forEach() ***********/ 
+
+// let array = [1,2,3,4,5];
+
+// // for(arr of array){
+// //     console.log(arr);
+// // }
+
+// array.forEach((val,index)=>{
+//     console.log(val,index);
+// });
+
+
+/********** Adicionando valores entre arrays ***********/ 
+
+// let numeros = [1,2,3,4,5];
+// console.log(numeros)
+
+// let addPonto = numeros.join('.');
+
+// console.log(addPonto);
+
+// for(addPont of addPonto){
+//     console.log(addPont)
+// }
+
+/********** separando frases e adicionando traços no lugar do espaço ***********/ 
+
+// const frase = "ola bem vindo ao curso";
+// console.log(frase);
+
+// let resultado =  frase.split(' '); //separa e transforma a frase em palavras separadas;
+
+// let addTraco = resultado.join('-');
+// console.log(addTraco);
+
