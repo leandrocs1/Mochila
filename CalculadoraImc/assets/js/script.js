@@ -35,7 +35,9 @@ botao.addEventListener("click",()=>{
 });
 
 botaoZerar.addEventListener("click", ()=>{
-    location.reload()
+    location.reload();
+    document.querySelector(".peso").value = "";
+    document.querySelector(".altura").value = "";
 });
 
 

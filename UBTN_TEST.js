@@ -1,3 +1,15 @@
-const name = "Leandro do Carmo Santos";
+const senha = "123mudar";
+let user = "Leandro";
+const usuario = user + " Well come! Your acess has been released!";
 
-console.log(name);
+function acessReleased(password){
+    if(senha === password){
+        console.log(usuario);
+    }else{
+        console.log("Invalid user!!!!!!")
+    }
+};
+
+
+//Digite a senha para acessar:
+acessReleased("123mudar");
