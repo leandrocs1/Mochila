@@ -12,4 +12,4 @@ function acessReleased(password){
 
 
 //Digite a senha para acessar:
-acessReleased("abc123");
+acessReleased("testando123");
