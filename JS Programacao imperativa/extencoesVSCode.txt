@@ -3,5 +3,4 @@ Code Runner
 Dracula Official
 Live Server
 Rainbow Brackets
-VScode-icons
-;;
+VScode-icons;
