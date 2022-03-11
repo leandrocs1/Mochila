@@ -12,6 +12,6 @@ for(let index in object){
 
 let elementInteract = ["Leandro do Carmo Santos", 1989, 32];
 
-for(let prop of array){
+for(let prop of elementInteract){
     console.log(prop);
 };
