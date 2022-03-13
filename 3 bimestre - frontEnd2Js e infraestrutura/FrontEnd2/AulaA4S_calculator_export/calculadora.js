@@ -12,5 +12,5 @@ console.log(sub(10,2));
 //Dividit
 console.log(div(20,5));
 
-//somar
+//Somar
 console.log(soma(10,4));
