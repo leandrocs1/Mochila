@@ -84,3 +84,7 @@
                 /// scissors
 
     game(rock);
+
+    game(paper);
+
+    game(scissors);
