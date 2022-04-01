@@ -12,6 +12,11 @@ for(let objectDetail in object){ //Usar um nome que tenha haver.
 
 let users = ["Leandro do Carmo Santos", 1989, 32];  //USAR O MESMO NOME É UMA BOA PRÁTICA.(registers)
 
+<<<<<<< HEAD:FrontEnd2/AulaA2A/forInAndforOf.js
 for(let user of users){   //USAR O MESMO NOME É UMA BOA PRÁTICA. (No singular register)
     console.log(user);
+=======
+for(let prop of elementInteract){
+    console.log(prop);
+>>>>>>> 75301a9913371a9939556cd899a74b2d8ef607d1:3 bimestre - frontEnd2Js e infraestrutura/FrontEnd2/AulaA2A/forInAndforOf.js
 };
