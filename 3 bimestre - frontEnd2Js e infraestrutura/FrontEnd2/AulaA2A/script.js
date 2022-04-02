@@ -49,3 +49,5 @@ console.log(d);
     
 // }
 
+let idade = prompt("Qual a sua idade?")
+
