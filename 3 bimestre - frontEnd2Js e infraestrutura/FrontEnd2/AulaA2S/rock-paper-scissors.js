@@ -83,12 +83,4 @@
                 /// paper
                 /// scissors
 
-    game(rock);
-
     game(paper);
-
-<<<<<<< HEAD:FrontEnd2/AulaA2S/rock-paper-scissors.js
-    game(scissors);
-=======
-    game(scissors);
->>>>>>> 75301a9913371a9939556cd899a74b2d8ef607d1:3 bimestre - frontEnd2Js e infraestrutura/FrontEnd2/AulaA2S/rock-paper-scissors.js
