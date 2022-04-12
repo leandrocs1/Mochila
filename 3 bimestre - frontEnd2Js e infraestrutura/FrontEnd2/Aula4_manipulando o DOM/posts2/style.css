@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#postMain{
+    padding: 30px;
+}
+
+.postArea{
+    margin: 25px;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.titulo-post{
+    margin: 10px;
+    font-size: 35px;
+    color: yellow
+}
+
+.texto-post{
+    margin: 10px;
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.nick-post{
+    margin: 10px;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    color: white;
+}

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding: 32px;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.form-events{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tip{
+    color: rgba(0, 0, 0, 0.312);
+    margin-left: 50px;
+    background-color: rgba(240, 255, 255, 0.622);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: -20px;
+    display: none;
+}
+
+input,
+select,
+textarea{
+    height: 30px;
+    padding-left: 8px;
+}
+
+textarea{
+    padding-top: 8px;
+}
+
+label.text{
+    width: 100%;
+}
+
+label.select{
+    width: 49%;
+}
+
+input[type=text],
+textarea,
+select{
+    width: 100%;
+}
+
+
+.text2{
+    height: 380px;
+}
+
+.buttonSpace{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+#buttonReset{
+    background-color: crimson;
+    width: 120px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#button{
+    padding: 10px 70px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
