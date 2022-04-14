@@ -51,6 +51,8 @@ btnReference.addEventListener("click", (event)=>{
         descriptionInputReferences.value = ""
         imgInputReferences.value = ""
 
+        alert("postado! Pode fazer um novo post quando quiser");
+
 });
 
 
