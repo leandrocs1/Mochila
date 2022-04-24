@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 996px;
+}
+
+main{
+    display: flex;
+    justify-content: center
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#texto{
+padding: 5px;
+width: 40%;
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+
+#toSent{
+    width: 85px;
+    margin-left: 2px;
+}
+
+.script{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post{
+    margin-top: 8px;
+    width: 49%;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checked{
+    font-size: 60px;
+    position: absolute;
+    top: 214px;
+}
+
+p{
+    width: 95%;
+    text-align: left;
+    padding-left: 16px;
+    display: flex;
+}
+
+.excluir{
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.excluir:hover{
+    color: red;
+    font-weight: bold;
+}
