@@ -4,17 +4,16 @@ let textoReference = document.querySelector("#texto");
 let postReference = document.querySelector(".script");
 
 
+
+///////////////// SISTEMA DE POSTAGEM NO STORAGE ////////////////
 let posts = [
     
 ];
-
 
 if(localStorage.length > 0){
     let localStorageReferences = JSON.parse(localStorage.post);
 
     posts = localStorageReferences;
-
-
 
     for(localStorageReference of localStorageReferences){
 
@@ -25,13 +24,8 @@ if(localStorage.length > 0){
                 <p>${localStorageReference.texto}</p>
             </div>
             `;
-
-
-
     };
 };
-
-console.log(posts)
 
 buttonReference.addEventListener("click", (event)=>{
     event.preventDefault();
@@ -54,11 +48,11 @@ buttonReference.addEventListener("click", (event)=>{
     </div>
     `;
 
-
-
     tituloReference.value = "";
     textoReference.value = "";
 });
+
+
 
 
 

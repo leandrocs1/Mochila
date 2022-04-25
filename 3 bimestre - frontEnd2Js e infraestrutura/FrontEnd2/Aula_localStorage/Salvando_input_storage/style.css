@@ -8,11 +8,9 @@
     color: white;
 }
 
-
-
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 50px;
 }
 
@@ -60,7 +58,7 @@ margin-bottom: 8px;
 .post{
     margin-top: 8px;
     width: 49%;
-    background-color: antiquewhite;
+    background-color: rgb(121, 115, 107);
     padding: 5px;
     border-radius: 10px;
     display: flex;
