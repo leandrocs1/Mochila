@@ -42,12 +42,9 @@ function carregarPg(){
     
             if(paginaDinamica.innerHTML == ""){
             pokemons.splice(valButton, 1);
-            // paginaDinamica.innerHTML = "";
+
             localStorage.setItem("poke", JSON.stringify((pokemons)));
             carregarPg()
-    
-            console.log(valButton)
-            // location.reload();
             }
         });
     });
