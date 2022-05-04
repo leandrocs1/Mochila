@@ -1,6 +1,6 @@
 let formPokemonNameRef = document.querySelector(".pokemon-name");
 let buttonPokemonRef = document.querySelector("#pokemon-button");
-let pokemonWrapRef = document.querySelector(".pokemons-infos");
+let paginaDinamica = document.querySelector(".pokemons-infos");
 
 
 //FETCH Pokemon
@@ -8,9 +8,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon/`).then(
         response =>{
             response.json().then(
                 data => {
-
                     localStorage.setItem("poke", JSON.stringify((data.results)));
-
                 }
             )
         }
@@ -18,39 +16,41 @@ fetch(`https://pokeapi.co/api/v2/pokemon/`).then(
 //FETCH-end Pokemon
 
 //IMPRIMI NA TELA O LOCALSTORAGE
-
 let pokemons = JSON.parse(localStorage.getItem("poke"));
 
-for(pokemon of pokemons){
-    
-    pokemonWrapRef.innerHTML += `
-            
-            <div class="pokemons-infos-single">
-                <button class="excluir">
-                    <img src="./img/excluir.png">
-                </button>
-                <div class="pokemon-name">
-                    <h2>Nome:</h2>
-                    <p class="name">${pokemon.name}</p>
-                </div>
+function carregarPg(){
+    for(pokemon of pokemons){
+        paginaDinamica.innerHTML += `
                 
+        <div class="pokemons-infos-single">
+            <button class="excluir">
+                <img src="./img/excluir.png">
+            </button>
+            <div class="pokemon-name">
+                <h2>Nome:</h2>
+                <p class="name">${pokemon.name}</p>
             </div>
-            `    
-};
+        </div>
+        `
+    };
 
-function deleteFromStorage(){
-    let excluirRefAll = document.querySelectorAll(".excluir");
-
+    let excluirRefAll = document.querySelectorAll(".excluir img");
     excluirRefAll.forEach((indexButton, valButton)=>{
         indexButton.addEventListener("click", ()=>{
-
+    
+            paginaDinamica.innerHTML = ""
+    
+            if(paginaDinamica.innerHTML == ""){
             pokemons.splice(valButton, 1);
-            
+            // paginaDinamica.innerHTML = "";
             localStorage.setItem("poke", JSON.stringify((pokemons)));
-
-            location.reload();
+            carregarPg()
+    
+            console.log(valButton)
+            // location.reload();
+            }
         });
     });
-};
 
-deleteFromStorage();
+}
+carregarPg()
