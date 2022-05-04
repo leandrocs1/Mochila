@@ -40,14 +40,13 @@ function carregarPg(){
     
             paginaDinamica.innerHTML = ""
     
-            if(paginaDinamica.innerHTML == ""){
+            
             pokemons.splice(valButton, 1);
 
             localStorage.setItem("poke", JSON.stringify((pokemons)));
             carregarPg()
-            }
+         
         });
     });
-
 }
 carregarPg()
